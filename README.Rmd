@@ -12,7 +12,7 @@ library(glue)
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## dataset
+## datasets
 
 This repository contains the following datasets:
 
@@ -20,7 +20,7 @@ This repository contains the following datasets:
 
 directories <- dir_ls(type = "directory") %>% as.list() 
 
-directories %>% glue_data("- [ ] {.} \n")
+directories %>% glue_data("- [ ] `{.}` \n")
 
 ```
 
