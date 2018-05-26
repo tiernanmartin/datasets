@@ -22,7 +22,6 @@ directories <- dir_ls(type = "directory") %>% as.list()
 
 urls <- directories %>% glue_data("https://github.com/tiernanmartin/datasets/tree/master/{.}")
 
-directories %>% glue_data("- [ ] [`{.}`]({urls}) \n")
+directories %>% glue_data("- [{.}]({urls}) \n")
 
 ```
-

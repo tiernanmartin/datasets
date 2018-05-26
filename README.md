@@ -6,4 +6,4 @@ datasets
 
 This repository contains the following datasets:
 
--   \[ \] \[`wa-state-agencies`\](<https://github.com/tiernanmartin/datasets/tree/master/wa-state-agencies>)
+-   [wa-state-agencies](https://github.com/tiernanmartin/datasets/tree/master/wa-state-agencies)
