@@ -12,12 +12,3 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Contents
 
   + [`wa-state-agencies`](https://github.com/tiernanmartin/datasets/tree/master/wa-state-agencies) the names of every Washington State agency and their respective acronyms
-  + [`something-else`](https://github.com/tiernanmartin/datasets/tree/master/wa-state-agencies) mauris eleifend tortor et leo cursus, eget ornare ex porta 
-  + [`wa-state-agencies`](https://github.com/tiernanmartin/datasets/tree/master/wa-state-agencies) pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas  
-
-
-| `datasets/`         |                                              | 
-| :------------------ | :------------------------------------------- |
-| [`wa-state-agencies`](https://github.com/tiernanmartin/datasets/tree/master/wa-state-agencies) | the names of every Washington State agency and their respective acronyms |   
-| [`something-else`](https://github.com/tiernanmartin/datasets/tree/master/wa-state-agencies) | mauris eleifend tortor et leo cursus, eget ornare ex porta |   
-| [`maecenas-bibendum`](https://github.com/tiernanmartin/datasets/tree/master/wa-state-agencies) | pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas   |   
