@@ -4,6 +4,8 @@ Washington State Agencies
 
 A list of the agencies in Washington State and their respective acronyms.
 
+Data source: <https://access.wa.gov/agency.html>
+
 | AGENCY\_NAME                                                                | FOCUS                                                 | TYPE                                              | ACRONYM  |
 |:----------------------------------------------------------------------------|:------------------------------------------------------|:--------------------------------------------------|:---------|
 | State Board of Accountancy (WBOA)                                           | Accountancy                                           | State Board of                                    | WBOA     |

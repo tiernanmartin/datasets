@@ -15,6 +15,8 @@ options(knitr.kable.NA = '')
 
 A list of the agencies in Washington State and their respective acronyms.
 
+Data source: https://access.wa.gov/agency.html
+
 ```{r, results='asis', echo=FALSE,message=FALSE}
 here::here("wa-state-agencies/data/wa-state-agencies.csv") %>% 
   read_csv(na = "NA") %>% 
