@@ -5,23 +5,13 @@ output: github_document
 <a href="http://www.repostatus.org/#wip"><img src="http://www.repostatus.org/badges/latest/wip.svg" alt="Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public." /></a>
 
 
-```{r setup, include=FALSE}
-library(fs)
-library(tidyverse)
-library(glue)
+```{r setup, include=FALSE} 
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## datasets
+## Contents
 
-This repository contains the following datasets:
 
-```{r datasets-list, echo=FALSE, results='asis'}
-
-directories <- dir_ls(type = "directory") %>% as.list() 
-
-urls <- directories %>% glue_data("https://github.com/tiernanmartin/datasets/tree/master/{.}")
-
-directories %>% glue_data("- [`{.}`]({urls}) \n")
-
-```
+| `datasets/`         |                                              | 
+| :------------------ | :------------------------------------------- |
+| [`wa-state-agencies`](https://github.com/tiernanmartin/datasets/tree/master/wa-state-agencies) | the names of every Washington State agency and their respective acronyms |   
