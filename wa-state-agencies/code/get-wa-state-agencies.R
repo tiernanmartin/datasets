@@ -22,8 +22,7 @@ agencies <- tibble(AGENCIES = agencies_list) %>%
   ),
   FOCUS,
   TYPE,
-  ACRONYM) %>% 
-  mutate_all(funs(if_else(is.na(.),"",.)))
+  ACRONYM)
             
 # WRITE DATA ----
 
