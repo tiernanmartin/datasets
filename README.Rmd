@@ -20,7 +20,9 @@ This repository contains the following datasets:
 
 directories <- dir_ls(type = "directory") %>% as.list() 
 
-directories %>% glue_data("- [ ] `{.}` \n")
+urls <- directories %>% glue_data("https://github.com/tiernanmartin/datasets/tree/master/{.}")
+
+directories %>% glue_data("- [ ] [`{.}`]({urls}) \n")
 
 ```
 
