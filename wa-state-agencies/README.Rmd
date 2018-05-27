@@ -17,11 +17,13 @@ A list of the agencies in Washington State and their respective acronyms.
 
 Access the data [here](https://raw.githubusercontent.com/tiernanmartin/datasets/master/wa-state-agencies/data/wa-state-agencies.csv).
 
-Data license: [CC Attribution 4.0 License](http://creativecommons.org/licenses/by/4.0/) · Data source: [Access Washington](https://access.wa.gov/agency.html) 
 
 ```{r, results='asis', echo=FALSE,message=FALSE}
-here::here("wa-state-agencies/data/wa-state-agencies.csv") %>% 
+here::here("wa-state-agencies/data/wa-state-agencies-data-dictionary.csv") %>% 
   read_csv(na = "NA") %>% 
   kable()
 ```
 
+## License
+
+Data license: [CC Attribution 4.0 License](http://creativecommons.org/licenses/by/4.0/) · Data source: [Access Washington](https://access.wa.gov/agency.html) 
