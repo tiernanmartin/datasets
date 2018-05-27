@@ -4,7 +4,7 @@ Washington State Agencies
 
 A list of the agencies in Washington State and their respective acronyms.
 
-Access the data [here](https://raw.githubusercontent.com/tiernanmartin/datasets/master/wa-state-agencies/data/wa-state-agencies.csv).
+Access the data <!--html_preserve--><a href="https://raw.githubusercontent.com/tiernanmartin/datasets/master/wa-state-agencies/data/wa-state-agencies.csv" download target="_blank">here</a><!--/html_preserve-->.
 
 | VARIABLE    | DESCRIPTION                    | NOTE                                                                                                        |
 |:------------|:-------------------------------|:------------------------------------------------------------------------------------------------------------|

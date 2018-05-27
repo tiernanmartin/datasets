@@ -4,18 +4,26 @@ always_allow_html: yes
 ---
 
 ```{r setup, include=FALSE}
- 
+
+library(htmltools) 
 library(knitr)
 library(tidyverse)
 
 options(knitr.kable.NA = '')
 ```
 
+
+```{r, echo = FALSE}
+csv_url <- "https://raw.githubusercontent.com/tiernanmartin/datasets/master/wa-state-agencies/data/wa-state-agencies.csv"
+
+link <- tags$a("here") %>% tagAppendAttributes(href = csv_url, download = NA, target = "_blank")
+```
+
 ## Washington State Agencies
 
 A list of the agencies in Washington State and their respective acronyms.
 
-Access the data [here](https://raw.githubusercontent.com/tiernanmartin/datasets/master/wa-state-agencies/data/wa-state-agencies.csv).
+Download the data `r link`.
 
 
 ```{r, results='asis', echo=FALSE,message=FALSE}
