@@ -25,6 +25,8 @@ A list of the agencies in Washington State and their respective acronyms.
 
 Download the data `r link`.
 
+<a href="https://raw.githubusercontent.com/tiernanmartin/datasets/master/wa-state-agencies/data/wa-state-agencies.csv" download target="_blank">here</a>
+
 
 ```{r, results='asis', echo=FALSE,message=FALSE}
 here::here("wa-state-agencies/data/wa-state-agencies-data-dictionary.csv") %>% 
