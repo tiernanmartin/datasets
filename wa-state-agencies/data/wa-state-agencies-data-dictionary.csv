@@ -1,0 +1,5 @@
+VARIABLE,DESCRIPTION,NOTE
+Agency Name,The name of the agency,Restructured from the original to fit the following pattern: `Type of Agency` `Focus of Agency` `(Acronym)`
+Focus,The focus of the agency's work,"For instance: agriculture, ecology, the lottery, etc."
+Type,The type of the agency,"For instance: department, board, office, commission, committee, etc."
+Acronym,The agency's official acronym,NA
