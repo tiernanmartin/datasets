@@ -5,3 +5,4 @@ Contents
 --------
 
 -   [`wa-state-agencies`](https://github.com/tiernanmartin/datasets/tree/master/wa-state-agencies) the names of every Washington State agency and their respective acronyms
+-   [`wa-libraries`](https://github.com/tiernanmartin/datasets/tree/master/wa-libraries) the public libraries in Washington State and their locations
