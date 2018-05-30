@@ -1,0 +1,34 @@
+---
+output: github_document
+always_allow_html: yes
+---
+
+```{r setup, include=FALSE}
+
+
+library(knitr)
+library(tidyverse)
+
+options(knitr.kable.NA = '')
+```
+
+<a href="http://www.repostatus.org/#active"><img src="http://www.repostatus.org/badges/latest/active.svg" alt="Project Status: Active – The project has reached a stable, usable state and is being actively developed." /></a>
+
+## Public Libraries, Washington State
+
+A list of the public libraries in Washington State and their geographic locations.
+
+
+```{r, results='asis', echo=FALSE,message=FALSE}
+here::here("wa-libraries/data/wa-libraries-data-dictionary.csv") %>% 
+  read_csv(na = "NA") %>% 
+  kable()
+```
+
+## Download
+
+To download the data, right-click the following link and choose 'Save link as...': [`wa-libraries.gpkg`](https://raw.githubusercontent.com/tiernanmartin/datasets/master/wa-state-agencies/data/wa-libraries.gpkg).
+
+## License <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
+
+Data license:   [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) · Data source: [Access Washington](https://access.wa.gov/agency.html) 

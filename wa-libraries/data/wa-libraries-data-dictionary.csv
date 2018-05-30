@@ -1,0 +1,10 @@
+VARIABLE,DESCRIPTION,NOTE
+Library Name,The name of the library,NA
+Phone,The phone number,NA
+Address,The street address,Formatted according to the Google Maps API standard
+City,The city where the library is located,NA
+State,The state where the library is located,NA
+Zip Code,The zip code where the libary is located,NA
+Lng,The longitude of the libraries geographic location,NA
+Lat,The latitude of the libraries geographic location,NA
+geom,The geometry of the libraries location,Geometry type: POINT
