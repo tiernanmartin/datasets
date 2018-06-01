@@ -22,6 +22,7 @@ data_dictionary <- tibble::tribble(
           "Phone",                                    "The phone number",                                                     NA,
         "Address",                                  "The street address",  "Formatted according to the Google Maps API standard",
            "City",               "The city where the library is located",                                                     NA,
+         "County",              "The county where the librar is located",                                                     NA,
           "State",              "The state where the library is located",                                                     NA,
        "Zip Code",            "The zip code where the libary is located",                                                     NA,
             "Lng",  "The longitude of the libraries geographic location",                                                     NA,

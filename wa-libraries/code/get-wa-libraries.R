@@ -1,5 +1,6 @@
 # SETUP ----
 
+library(tigris)
 library(janitor) 
 library(glue)
 library(rvest)
@@ -7,6 +8,7 @@ library(placement)
 library(sf)
 library(tidyverse)
 
+options(tigris_class = "sf")
 
 # GET DATA ----
 
@@ -17,6 +19,10 @@ libs <- read_html(libraries_table_url) %>%
   html_table(header = TRUE) %>% 
   flatten_df() %>% 
   rename_all(snakecase::to_screaming_snake_case)
+
+counties <- tigris::counties(state = "WA", cb = TRUE) %>% 
+  transmute(COUNTY = NAME) %>% 
+  st_transform(4326)
 
 # GECODE DATA ----
 
@@ -45,12 +51,14 @@ libs_ready <- libs_sf %>%
   transmute(LIBRARY_NAME = LIBRARY,
             FORMATTED_ADDRESS,
             PHONE = PHONE) %>% 
+  st_join(counties) %>% 
   separate(FORMATTED_ADDRESS, c("ADDRESS","CITY","STATE_ZIP","COUNTRY"), sep = ", ") %>%  
   separate(STATE_ZIP, c("STATE", "ZIP_CODE"), sep = " ") %>% 
   transmute(LIBRARY_NAME,
          PHONE,
          ADDRESS,
          CITY,
+         COUNTY,
          STATE,
          ZIP_CODE,
          LNG = map_dbl(geometry,get_coord,"X"),
