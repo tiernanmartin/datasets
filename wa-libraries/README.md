@@ -12,6 +12,7 @@ A list of the public libraries in Washington State and their geographic location
 | Phone        | The phone number                                   |                                                     |
 | Address      | The street address                                 | Formatted according to the Google Maps API standard |
 | City         | The city where the library is located              |                                                     |
+| County       | The county where the librar is located             |                                                     |
 | State        | The state where the library is located             |                                                     |
 | Zip Code     | The zip code where the libary is located           |                                                     |
 | Lng          | The longitude of the libraries geographic location |                                                     |
