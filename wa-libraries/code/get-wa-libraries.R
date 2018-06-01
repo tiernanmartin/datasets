@@ -68,3 +68,5 @@ libs_ready <- libs_sf %>%
 # WRITE DATA ----
 
 st_write(libs_ready, here::here("wa-libraries/data/wa-libraries.gpkg"))
+
+st_write(libs_ready, here::here("wa-libraries/data/wa-libraries.geojson"))
