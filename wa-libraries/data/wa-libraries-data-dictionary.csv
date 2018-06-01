@@ -1,11 +1,11 @@
-VARIABLE,DESCRIPTION,NOTE
-Library Name,The name of the library,NA
-Phone,The phone number,NA
-Address,The street address,Formatted according to the Google Maps API standard
-City,The city where the library is located,NA
-County,The county where the librar is located,NA
-State,The state where the library is located,NA
-Zip Code,The zip code where the libary is located,NA
-Lng,The longitude of the libraries geographic location,NA
-Lat,The latitude of the libraries geographic location,NA
-geom,The geometry of the libraries location,Geometry type: POINT
+VARIABLE,DESCRIPTION,SOURCE,NOTE
+Library Name,The name of the library,www.publiclibraries.com,NA
+Phone,The phone number,www.publiclibraries.com,NA
+Address,The street address,Google Maps API,NA
+City,The city where the library is located,Google Maps API,NA
+County,The county where the library is located,US Census Bureau TIGER Shapefiles,NA
+State,The state where the library is located,Google Maps API,NA
+Zip Code,The zip code where the libary is located,Google Maps API,NA
+Lng,The longitude of the libraries geographic location,Google Maps API,NA
+Lat,The latitude of the libraries geographic location,Google Maps API,NA
+geom,The geometry of the libraries location,Google Maps API,Geometry type: POINT

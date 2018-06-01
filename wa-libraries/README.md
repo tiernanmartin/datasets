@@ -6,18 +6,18 @@ Public Libraries, Washington State
 
 A list of the public libraries in Washington State and their geographic locations.
 
-| VARIABLE     | DESCRIPTION                                        | NOTE                                                |
-|:-------------|:---------------------------------------------------|:----------------------------------------------------|
-| Library Name | The name of the library                            |                                                     |
-| Phone        | The phone number                                   |                                                     |
-| Address      | The street address                                 | Formatted according to the Google Maps API standard |
-| City         | The city where the library is located              |                                                     |
-| County       | The county where the librar is located             |                                                     |
-| State        | The state where the library is located             |                                                     |
-| Zip Code     | The zip code where the libary is located           |                                                     |
-| Lng          | The longitude of the libraries geographic location |                                                     |
-| Lat          | The latitude of the libraries geographic location  |                                                     |
-| geom         | The geometry of the libraries location             | Geometry type: POINT                                |
+| VARIABLE     | DESCRIPTION                                        | SOURCE                            | NOTE                 |
+|:-------------|:---------------------------------------------------|:----------------------------------|:---------------------|
+| Library Name | The name of the library                            | www.publiclibraries.com           |                      |
+| Phone        | The phone number                                   | www.publiclibraries.com           |                      |
+| Address      | The street address                                 | Google Maps API                   |                      |
+| City         | The city where the library is located              | Google Maps API                   |                      |
+| County       | The county where the library is located            | US Census Bureau TIGER Shapefiles |                      |
+| State        | The state where the library is located             | Google Maps API                   |                      |
+| Zip Code     | The zip code where the libary is located           | Google Maps API                   |                      |
+| Lng          | The longitude of the libraries geographic location | Google Maps API                   |                      |
+| Lat          | The latitude of the libraries geographic location  | Google Maps API                   |                      |
+| geom         | The geometry of the libraries location             | Google Maps API                   | Geometry type: POINT |
 
 Download
 --------
