@@ -1,4 +1,7 @@
 .Rproj.user
+.Rproj.user.backup
 .Rhistory
 .RData
 .Ruserdata
+.httr-oauth
+.drake
