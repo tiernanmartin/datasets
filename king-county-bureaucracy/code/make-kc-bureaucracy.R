@@ -1,89 +1,211 @@
 # SETUP ----
-library(snakecase)
-library(drake)
-library(googlesheets)
-library(googledrive)
+
+library(snakecase) 
+library(operator.tools)
+library(tictoc)
+library(rvest) 
 library(tidyverse)
 
-# HELPER FUNCTIONS ----
+# GET HTML DATA ---- 
 
-drive_get_datetime_modified <- function(dr_id_string){
+base_url <- "http://directory.kingcounty.gov/"
+
+group_search_url <- "http://directory.kingcounty.gov/GroupSearch.asp"
+
+dept_hrefs <- group_search_url %>% 
+  read_html() %>% 
+  html_node("#tblMain table") %>% 
+  xml_child(3) %>%  
+  xml_child(1) %>% 
+  xml_child(1) %>% 
+  xml_child(1) %>% 
+  xml_child(1) %>% 
+  xml_child(2) %>% 
+  xml_child(2) %>% 
+  xml_child(1) %>% 
+  html_nodes("a") %>% 
+  html_attr('href') 
+
+dept_urls <- str_c(base_url, dept_hrefs)
+
+dept_ids <- str_extract(dept_urls, "(?<==)\\d+")
+
+# CREAT SCRAPING FUNCTIONS ----
+
+# Funs for collecting the urls
+
+get_url_subs <- function(url){  
   
-  dr_id <- as_id(dr_id_string)
+  page_html <- read_html(url)
   
-  datetime_modified <- dr_id %>% 
-    drive_get %>% 
-    mutate(modified = lubridate::as_datetime(map_chr(drive_resource, "modifiedTime"))) %>% 
-    pull
+  table_names <- page_html %>%  
+    html_nodes("p.titlecell") %>% 
+    html_nodes("a") %>% 
+    html_attrs()  
+    
+  if("groups" %!in% table_names){return(character(0))}
   
-  return(datetime_modified)
+  urls <- page_html %>% 
+    html_node("body") %>% 
+    html_nodes("table") %>%  
+    pluck(6) %>% 
+    html_nodes("a") %>% 
+    html_attr("href") %>% 
+    purrr::keep(~str_detect(.x,"GroupDetail")) %>% 
+    {str_c(base_url,.)}
+  
+  return(urls)
+  
+} 
+
+get_all_urls <- function(dept_urls){
+  
+  # browser()
+  
+  sub_urls <- NA_character_
+
+  target_urls <- dept_urls
+
+while(length(target_urls) > 0){
+  
+  new_urls <- target_urls %>%  
+    map(get_url_subs) %>%  
+    flatten_chr() %>% 
+    discard(~ .x %in% sub_urls)
+  
+  sub_urls <- c(sub_urls, new_urls) %>% 
+    discard(is.na)
+  
+  target_urls <- new_urls
+}
+
+  all_urls <- c(dept_urls, sub_urls)
+  
+return(all_urls)
+
 }
 
 
-# COMMANDS ----
+# Funs for creating the table
 
-make_drive_id_string <- function(){
-  id <- "1rjsPCbt98B4WJVuGITYBH32OUkkEAaNN8YyWU_Hipp4"
+get_url_table <- function(target_url){
+  target_url %>% 
+    read_html() %>% 
+    html_nodes("table") %>% 
+    pluck(3) 
+  }
+
+get_url_col <- function(url_table, col = "name"){
   
-  return(id)
+  cols <- c("name" = 3, 
+            "desc" = 4,
+            "parent" = 5)
+  
+  url_table %>% 
+    xml_child(cols[col]) %>% 
+    xml_child(2) %>% 
+    html_node("font") %>% 
+    html_text() %>%  
+    str_trim("both")
+    
 }
 
-make_kc_bureaucracy_socrata <- function(...){
+get_parent_url <- safely(function(target_url){
   
-  url <- "https://data.kingcounty.gov/resource/es38-6nrz.csv"
+  url <- target_url %>% 
+      read_html() %>% 
+      html_nodes("table") %>% 
+      pluck(3) %>% 
+      xml_child(5) %>% 
+      xml_child(2) %>% 
+      html_node("font") %>% 
+      html_nodes("a") %>% 
+      html_attr('href') 
   
-  kc_bureaucracy_socrata <- read_csv(url) %>% 
-    rename_all(to_screaming_snake_case) %>% 
-    mutate_all(funs(iconv(.,'utf-8', 'ascii', sub='')))
+  return(url)
   
-  return(kc_bureaucracy_socrata)
+})
+
+get_dept_table <- function(target_url, hrefs = dept_hrefs){ 
+  
+  url_table <- get_url_table(target_url)
+  
+  href <- str_remove(target_url, base_url)
+  
+  url_depth <- 1 
+  
+  while(href %!in% dept_hrefs){
+    
+    href <- get_parent_url(target_url) %>% pluck("result") 
+     
+    if(is.null(href)){break}
+    
+    url_depth <- url_depth + 1 
+    
+    target_url <- str_c(base_url, href) 
+    
+  }
+  
+  tbl <- tibble(
+    NAME = get_url_col(url_table, "name"),
+    DESCRIPTION = get_url_col(url_table, "desc"),
+    PARENT = get_url_col(url_table, "parent"),
+    DEPTH = url_depth
+  )
+  
 }
 
-upload_kc_bureaucracy_google_drive <- function(drive_id_string, trigger_kc_bureaucracy_google_drive, kc_bureaucracy_socrata){
-  
-  sheet_key <- as_id(drive_id_string)
-  
-  kc_bureaucracy_ss <- gs_key(sheet_key, lookup = NULL, visibility = NULL, verbose = TRUE)
 
-  gs_edit_cells(kc_bureaucracy_ss, 
-              ws = "UPLOAD_TARGET", 
-              input = kc_bureaucracy_socrata, 
-              anchor = "A1", 
-              byrow = FALSE,
-              col_names = TRUE, 
-              trim = FALSE, 
-              verbose = TRUE) 
+# GET DATA ----
+
+all_urls <- get_all_urls(dept_urls) %>% 
+  unique() %>%  # DADJ has two parents: Operations and Superio Court
+  discard(~ !str_detect(.x,"GroupDetail"))  # get rid of the url with only the base_url
+
+# ~8 min. operation
+dept_tbl <- map_dfr(all_urls, get_dept_table, hrefs = dept_hrefs)
+
+# CLEAN DATA ----
+
+# acronym patterns (for testing)
+
+caps_bs_parens <- "DNRP/SWD - Enterprise Services (ES)" 
+caps_none_parens <- "PAO - Family Support Division (FSD)"
+caps_none_none <- "ELECTIONS - Technical Services"
+caps_bs_none <- "DNRP/WTD/PPD/ETR - Mechanical Engineering & Technical Staff"
+none_none_none <- "The Electorate of King County"
+
+pattern_paren <- "(?<=\\()[[:upper:]]{2,}"
+pattern_abbr <- "[[:upper:]]{2,}(?=\\s-)|(?<=/)[[:upper:]]{2,}|[[:upper:]]{2,}(?=/)|(?<=\\()[[:upper:]]{2,}"
+
+str_extract_abbr <- function(x, paren = pattern_paren, abbr = pattern_abbr){ 
   
-  return(kc_bureaucracy_ss)
+  # browser()
+  
+  new_string <- str_extract_all(string = x, pattern = abbr) %>% 
+      flatten_chr() %>% 
+      str_c(collapse = " ") %>% 
+      toupper()
+  
+  if(!str_detect(string = x, pattern = paren)){
+    NA_character_}else if(length(new_string) ==0){
+      NA_character_} else {
+        new_string
+        }
+  
+  
 }
 
-make_kc_bureaucracy <- function(trigger_kc_bureaucracy_google_drive, kc_bureaucracy_drive){
-  
-  trigger <- trigger_kc_bureaucracy_google_drive
-  
-  kc_bureaucracy_drive_edited <- gs_read(kc_bureaucracy_drive, ws = "EDITING_COPY")
-  
-  kc_bureaucracy <- kc_bureaucracy_drive_edited
-  
-  return(kc_bureaucracy)
-  
-}
+dept_tbl_ready <- dept_tbl %>%  
+  transmute(NAME = str_trim(NAME, "both"),
+            ABBREVIATION = map_chr(NAME, str_extract_abbr),
+            DESCRIPTION,
+            PARENT,
+            DEPTH
+            )  
 
-# PLANS ----
+# WRITE DATA ----
 
-kc_bureaucracy_plan <- drake_plan(
-  drive_id_string = make_drive_id_string(),
-  trigger_kc_bureaucracy_google_drive = drive_get_datetime_modified(drive_id_string),
-  kc_bureaucracy_socrata = make_kc_bureaucracy_socrata(),
-  kc_bureaucracy_drive = upload_kc_bureaucracy_google_drive(drive_id_string, trigger_kc_bureaucracy_google_drive, kc_bureaucracy_socrata),
-  kc_bureaucracy = make_kc_bureaucracy(trigger_kc_bureaucracy_google_drive, kc_bureaucracy_drive),
-  strings_in_dots = "literals"
-) %>% 
-  mutate(trigger = if_else(str_detect(target, "trigger"),
-                           "always",
-                           drake::default_trigger()))
+write_csv(dept_tbl_ready,here::here("king-county-bureaucracy/data/kc-bureaucracy.csv"))
 
 
-# MAKE PLANS ----
-
-make(kc_bureaucracy_plan)

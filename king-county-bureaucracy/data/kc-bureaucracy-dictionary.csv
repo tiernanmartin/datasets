@@ -1,0 +1,6 @@
+VARIABLE,DESCRIPTION,SOURCE,NOTE
+Name,"The name of the department, agency, division or program",http://directory.kingcounty.gov/,NA
+Abbreviation,The official acronym,http://directory.kingcounty.gov/,NA
+Description,A description of the purpose,http://directory.kingcounty.gov/,NA
+Parent,The department underwhich this public office falls,http://directory.kingcounty.gov/,NA
+Depth,The bureaucratic distance from the department-level parent,http://directory.kingcounty.gov/,Department-level parents are those departments and agencies with black backgrounds in the diagram below
