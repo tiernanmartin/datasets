@@ -28,7 +28,7 @@ here::here("king-county-bureaucracy/data/kc-bureaucracy-dictionary.csv") %>%
 ```
 
 
-![](https://github.com/tiernanmartin/datasets/raw/master/king-county-bureaucracy/resources/kc-org-chart.png)
+![](https://github.com/tiernanmartin/datasets/raw/master/king-county-bureaucracy/resources/kc-org-chart-higher-res.png)
 
 ## Download
 

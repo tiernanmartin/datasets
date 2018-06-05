@@ -16,7 +16,7 @@ A list of the public offices and departments that make up the government of King
 | Parent       | The department underwhich this public office falls         | <http://directory.kingcounty.gov/> |                                                                                                         |
 | Depth        | The bureaucratic distance from the department-level parent | <http://directory.kingcounty.gov/> | Department-level parents are those departments and agencies with black backgrounds in the diagram below |
 
-![](https://github.com/tiernanmartin/datasets/raw/master/king-county-bureaucracy/resources/kc-org-chart.png)
+![](https://github.com/tiernanmartin/datasets/raw/master/king-county-bureaucracy/resources/kc-org-chart-higher-res.png)
 
 Download
 --------
