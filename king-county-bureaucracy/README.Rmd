@@ -27,13 +27,12 @@ here::here("king-county-bureaucracy/data/kc-bureaucracy-dictionary.csv") %>%
   kable()
 ```
 
-### King County Hierarchy Diagram
 
 ![](https://github.com/tiernanmartin/datasets/raw/master/king-county-bureaucracy/resources/kc-org-chart.png)
 
 ## Download
 
-To download the data, right-click the following link and choose 'Save link as...': [`kc-bureaucracy-dictionary.csv`](https://github.com/tiernanmartin/datasets/raw/master/king-county-bureaucracy/data/kc-bureaucracy-dictionary.csv).
+To download the data, right-click the following link and choose 'Save link as...': [`kc-bureaucracy.csv`](https://github.com/tiernanmartin/datasets/raw/master/king-county-bureaucracy/data/kc-bureaucracy.csv).
 
 ## License <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
 
