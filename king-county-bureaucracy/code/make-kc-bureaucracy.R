@@ -196,13 +196,38 @@ str_extract_abbr <- function(x, paren = pattern_paren, abbr = pattern_abbr){
   
 }
 
+get_dept <- function(name, parent, depth, df){  
+  while(depth > 1){
+    
+    new_row <- df %>% 
+      filter(NAME %in% parent)
+    
+    name <- pluck(new_row, "NAME")
+    
+    parent <- pluck(new_row, "PARENT")
+    
+    depth <- pluck(new_row, "DEPTH") 
+  }
+  
+  return(name)
+}
+  
+  official_names_kc <- names_kc_load %>%  
+  mutate(DF = list(.),
+         DEPARTMENT = pmap_chr(list(name = NAME,parent = PARENT,depth = DEPTH, df = DF), get_dept)) %>% 
+    select(-DF) 
+
+  
 dept_tbl_ready <- dept_tbl %>%  
   transmute(NAME = str_trim(NAME, "both"),
             ABBREVIATION = map_chr(NAME, str_extract_abbr),
             DESCRIPTION,
             PARENT,
             DEPTH
-            )  
+            ) %>%
+   mutate(DF = list(.),
+         DEPARTMENT = pmap_chr(list(name = NAME,parent = PARENT,depth = DEPTH, df = DF), get_dept)) %>% 
+    select(-DF) 
 
 # WRITE DATA ----
 
