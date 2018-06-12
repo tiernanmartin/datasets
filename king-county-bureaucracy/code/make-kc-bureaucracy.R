@@ -212,11 +212,6 @@ get_dept <- function(name, parent, depth, df){
   return(name)
 }
   
-  official_names_kc <- names_kc_load %>%  
-  mutate(DF = list(.),
-         DEPARTMENT = pmap_chr(list(name = NAME,parent = PARENT,depth = DEPTH, df = DF), get_dept)) %>% 
-    select(-DF) 
-
   
 dept_tbl_ready <- dept_tbl %>%  
   transmute(NAME = str_trim(NAME, "both"),
