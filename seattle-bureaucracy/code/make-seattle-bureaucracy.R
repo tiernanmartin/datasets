@@ -101,4 +101,4 @@ depts_abbreviations_final <- depts_abbreviations %>%
 
 # WRITE DATA ----
 
-write_csv(depts_abbreviations_final, here::here("seattle-bureaucracy/data/seattle-bureaucracy-dictionary.csv"))
+write_csv(depts_abbreviations_final, here::here("seattle-bureaucracy/data/seattle-bureaucracy.csv"))
