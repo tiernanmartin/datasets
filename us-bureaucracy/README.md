@@ -10,7 +10,7 @@ A list of the Executive Departments of the United States Government.
 
 | VARIABLE     | DESCRIPTION                                             | SOURCE                                      | NOTE |
 |:-------------|:--------------------------------------------------------|:--------------------------------------------|:-----|
-| Dept         | The name of the department, agency, division or program | <https://www.usa.gov/executive-departments> |      |
+| Department   | The name of the department, agency, division or program | <https://www.usa.gov/executive-departments> |      |
 | Abbreviation | The official acronym or abbreviation                    | <https://www.usa.gov/executive-departments> |      |
 
 ![](https://github.com/tiernanmartin/datasets/raw/master/us-bureaucracy/resources/Chart_of_the_Government_of_the_United_States,_2011.jpg)

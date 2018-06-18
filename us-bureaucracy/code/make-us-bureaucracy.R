@@ -38,8 +38,7 @@ us_dept_abbr <- tibble(DEPT = dept_names,
   mutate(ABBR = case_when(
     str_detect(DEPT, "Treasury") ~ "USDT",
     TRUE ~ ABBR
-  ))
-
+  )) 
  
 # WRITE DATA ----
 

@@ -10,7 +10,7 @@ A list of the public offices and departments that make up the government of Seat
 
 | VARIABLE     | DESCRIPTION                                             | SOURCE                                                 | NOTE                                                                                        |
 |:-------------|:--------------------------------------------------------|:-------------------------------------------------------|:--------------------------------------------------------------------------------------------|
-| Dept         | The name of the department, agency, division or program | <http://www.seattle.gov/city-departments-and-agencies> |                                                                                             |
+| Department   | The name of the department, agency, division or program | <http://www.seattle.gov/city-departments-and-agencies> |                                                                                             |
 | Abbreviation | The official acronym or abbreviation                    | <http://www.seattle.gov/pan/soup.htm#s>                | THe page is temporarily down, so an archived version of the page was used (Wayback Machine) |
 
 ![](https://github.com/tiernanmartin/datasets/raw/master/seattle-bureaucracy/resources/cityorgchart.png)

@@ -97,8 +97,10 @@ depts_abbreviations_final <- depts_abbreviations %>%
     DEPT %in% "Seattle Parks and Recreation" ~ "SPR", 
     TRUE ~ ABBREVIATION
   )) %>% 
+  rename(DEPARTMENT = DEPT) %>% 
   arrange(ABBREVIATION)
-
+ 
+ 
 # WRITE DATA ----
 
 write_csv(depts_abbreviations_final, here::here("seattle-bureaucracy/data/seattle-bureaucracy.csv"))

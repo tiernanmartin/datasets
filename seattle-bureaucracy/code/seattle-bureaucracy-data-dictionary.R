@@ -18,7 +18,7 @@ vars <- read_csv( here::here("seattle-bureaucracy/data/seattle-bureaucracy-dicti
 
 data_dictionary <- tibble::tribble(
         ~VARIABLE,                                               ~DESCRIPTION,                                                 ~SOURCE,                                                                                          ~NOTE,
-           "Dept",  "The name of the department, agency, division or program",  "http://www.seattle.gov/city-departments-and-agencies",                                                                                             NA,
+           "Department",  "The name of the department, agency, division or program",  "http://www.seattle.gov/city-departments-and-agencies",                                                                                             NA,
    "Abbreviation",                     "The official acronym or abbreviation",                 "http://www.seattle.gov/pan/soup.htm#s",  "THe page is temporarily down, so an archived version of the page was used (Wayback Machine)"
   )
 
