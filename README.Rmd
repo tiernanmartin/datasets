@@ -16,3 +16,4 @@ knitr::opts_chunk$set(echo = TRUE)
   + [`kc-bureaucracy`](https://github.com/tiernanmartin/datasets/tree/master/king-county-bureaucracy) the names of every public department, division, and program in King County, Washington
   + [`seattle-bureaucracy`](https://github.com/tiernanmartin/datasets/tree/master/seattle-bureaucracy) the names of every public department, division, and program in Seattle, Washington
   + [`us-bureaucracy`](https://github.com/tiernanmartin/datasets/tree/master/us-bureaucracy) the names of the Executive Departments of the US Government
+  + [`wa-tribes`](https://github.com/tiernanmartin/datasets/tree/master/wa-tribes) the names of the federally-recognized Indian tribes in Washington State
