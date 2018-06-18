@@ -57,8 +57,9 @@ agencies_types <- agencies %>%
   transmute(AGENCY_NAME, 
             FOCUS,
             TYPE = TYPE_PATTERN,
-            ACRONYM)
+            ABBREVIATION = ACRONYM) 
+
 
 # WRITE DATA ----
 
-write_csv(agencies_types, here::here("wa-state-agencies/data/wa-state-agencies.csv"))
+write_csv(agencies_types, here::here("wa-bureaucracy/data/wa-bureaucracy.csv"))
