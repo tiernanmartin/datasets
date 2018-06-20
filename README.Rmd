@@ -9,6 +9,10 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+This repository contains several datasets related to Washington State. 
+
+The data are all structured as ["tidy" data](http://vita.had.co.nz/papers/tidy-data.html) collections to minimize pre-analysis cleaning and transformation.
+
 ## Contents
 
   + [`wa-bureaucracy`](https://github.com/tiernanmartin/datasets/tree/master/wa-bureaucracy) the names of every Washington State agency and their respective acronyms

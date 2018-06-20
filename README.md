@@ -1,6 +1,10 @@
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 
+This repository contains several datasets related to Washington State.
+
+The data are all structured as ["tidy" data](http://vita.had.co.nz/papers/tidy-data.html) collections to minimize pre-analysis cleaning and transformation.
+
 Contents
 --------
 
