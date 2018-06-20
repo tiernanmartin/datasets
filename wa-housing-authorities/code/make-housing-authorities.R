@@ -26,7 +26,7 @@ get_counties_served <- function(x){
     html_nodes(".hanums") %>% 
     html_text() %>%  
     str_extract("(?<=Serving\\sCounties:\\s).+?(?=Phone)") %>% 
-    str_replace("and",",")
+    str_replace(" and "," , ")
   
 }
 
