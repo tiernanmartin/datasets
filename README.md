@@ -10,3 +10,4 @@ Contents
 -   [`seattle-bureaucracy`](https://github.com/tiernanmartin/datasets/tree/master/seattle-bureaucracy) the names of every public department, division, and program in Seattle, Washington
 -   [`us-bureaucracy`](https://github.com/tiernanmartin/datasets/tree/master/us-bureaucracy) the names of the Executive Departments of the US Government
 -   [`wa-tribes`](https://github.com/tiernanmartin/datasets/tree/master/wa-tribes) the names of the federally-recognized Indian tribes in Washington State
+-   [`wa-housing-authorities`](https://github.com/tiernanmartin/datasets/tree/master/wa-housing-authorities) the names of the housing authorities in Washington State
