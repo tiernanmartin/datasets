@@ -1,10 +1,6 @@
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 
-This repository contains several datasets related to Washington State.
-
-The data are all structured as ["tidy" data](http://vita.had.co.nz/papers/tidy-data.html) collections to minimize pre-analysis cleaning and transformation.
-
 Contents
 --------
 
@@ -15,3 +11,12 @@ Contents
 -   [`us-bureaucracy`](https://github.com/tiernanmartin/datasets/tree/master/us-bureaucracy) the names of the Executive Departments of the US Government
 -   [`wa-tribes`](https://github.com/tiernanmartin/datasets/tree/master/wa-tribes) the names of the federally-recognized Indian tribes in Washington State
 -   [`wa-housing-authorities`](https://github.com/tiernanmartin/datasets/tree/master/wa-housing-authorities) the names of the housing authorities in Washington State
+
+Description
+-----------
+
+This repository contains several datasets related to Washington State.
+
+The data are all structured as ["tidy" data](http://vita.had.co.nz/papers/tidy-data.html) collections to minimize pre-analysis cleaning and transformation.
+
+The contents of this repository are being actively developed and are subject to change without advance notice.
