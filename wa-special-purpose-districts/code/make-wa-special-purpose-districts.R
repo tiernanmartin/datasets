@@ -50,7 +50,8 @@ clean_district_names <- function(x){
 spd_clean_names <- spd_county %>%  
     mutate(DISTRICT_NAME_CLEAN = map_chr(DISTRICT_NAME, clean_district_names))
 
-
+# NOTE: consider using the types listed here: 
+#  http://mrsc.org/Home/Explore-Topics/Governance/Forms-of-Government-and-Organization/Special-Purpose-Districts-in-Washington/Special-Purpose-Districts-Grouped-by-Function.aspx
 
 explore_types <- function(){
   spd_clean_names %>% 
@@ -175,6 +176,9 @@ first_not_na <- function (x)
         x[!sapply(x, is.na)][1]
     }
 }
+
+
+
 
 spd_type <- spd_clean_names %>%  
   regex_left_join(district_types, by = c(DISTRICT_NAME_CLEAN = "NAME")) %>% 
