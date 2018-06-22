@@ -8,7 +8,9 @@ A list of Special Purpose Districts in Washington State.
 
 According to the [Municipal Research and Services Center (MRSC)](http://mrsc.org/Home.aspx):
 
-> In Washington, special purpose districts are limited purpose local governments separate from a city, town, or county government. Generally they perform a single function, though some perform a limited number of functions. They provide an array of services and facilities including electricity, fire protection, flood control, health, housing, irrigation, parks and recreation, library, water-sewer service and more recently stadiums, convention centers, and entertainment facilities that are not otherwise available from city or county governments.
+> In Washington, special purpose districts are limited purpose local governments separate from a city, town, or county government. Generally they perform a single function, though some perform a limited number of functions.
+>
+> They provide an array of services and facilities including electricity, fire protection, flood control, health, housing, irrigation, parks and recreation, library, water-sewer service and more recently stadiums, convention centers, and entertainment facilities that are not otherwise available from city or county governments.
 
 ### Data Dictionary
 
