@@ -69,4 +69,4 @@ gg_plot <- ggplot(data = county_ready) +
 
 gg_plot
 
-ggsave(here::here("wa-special-purpose-districts/resources/spd-county-map.svg"))
+ggsave(here::here("wa-special-purpose-districts/resources/spd-county-map.png"),dpi = "retina")

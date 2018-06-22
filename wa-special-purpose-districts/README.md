@@ -26,7 +26,7 @@ According to the [Municipal Research and Services Center (MRSC)](http://mrsc.org
 
 ### Number of Special Purpose Districts, by County
 
-![](https://github.com/tiernanmartin/datasets/raw/master/wa-special-purpose-districts/resources/spd-county-map.svg) Image Source: [Municipal Research and Services Center (MRSC)](http://mrsc.org/Home.aspx)
+![](https://github.com/tiernanmartin/datasets/raw/master/wa-special-purpose-districts/resources/spd-county-map.png) Image Source: [Municipal Research and Services Center (MRSC)](http://mrsc.org/Home.aspx)
 
 Download
 --------
