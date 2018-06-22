@@ -65,8 +65,8 @@ Bellingham-Whatcom Public Facilities District,NA,Public Facilities,active,Whatco
 Bellingham Housing Authority,NA,Housing Authority,active,Whatcom,Whatcom,NA,NA,NA
 Bellingham School District No. 501,501,School,active,Whatcom,Whatcom,"Part Bellingham, part Ferndale",NA,NA
 Bellingham Transportation Benefit District (2010),NA,Transportation,active,Whatcom,Whatcom,Bellingham,NA,NA
-Ben Franklin Transit (PTBA ),NA,Transportation,active,Franklin,Franklin and Benton Counties,"Benton City, Kennewick, Richland, West Richland",NA,NA
-Ben Franklin Transit (PTBA),NA,Transportation,active,Benton,Benton and Franklin Counties,"Benton City, Kennewick, Richland, West Richland",NA,Benton County Transit Authority PTBA
+Ben Franklin Transit (PTBA ),NA,Transportation,active,Franklin,"Franklin, Benton","Benton City, Kennewick, Richland, West Richland",NA,NA
+Ben Franklin Transit (PTBA),NA,Transportation,active,Benton,"Benton, Franklin","Benton City, Kennewick, Richland, West Richland",NA,Benton County Transit Authority PTBA
 Benge School District No. 122,122,School,active,Adams,Adams,NA,NA,NA
 Benton-Franklin Health District,NA,Health,active,Benton,Benton,NA,NA,NA
 Benton City Library Capital Facilities Area,NA,Library,active,Benton,Benton,Benton City,NA,Benton City Library Facilities Area
@@ -235,7 +235,7 @@ Columbia County Fire Protection District No. 2,2,Fire Protection,active,Columbia
 Columbia County Fire Protection District No. 3,3,Fire Protection,active,Columbia,Columbia,Dayton,Dayton,NA
 Columbia County Hearn Irrigation District,NA,Irrigation,active,Columbia,Columbia,NA,NA,Also known as Hearn Irrigation Ditch
 Columbia County Mosquito Control District,NA,Mosquito Control,active,Columbia,Columbia,NA,NA,NA
-Columbia County Public Hospital District No. 1,1,Hospital,active,"Columbia, Walla Walla","Columbia, Walla Walla","Waitsburg, Dayton, Starbuck",NA,County-wide
+Columbia County Public Hospital District No. 1,1,Hospital,active,Columbia,"Columbia, Walla Walla","Waitsburg, Dayton, Starbuck",NA,County-wide
 Columbia County Rural Library District (2005),NA,Library,active,Columbia,Columbia,Dayton,NA,NA
 Columbia County Transit Authority (2005),NA,Transportation,active,Columbia,Columbia,Dayton and Starbuck,NA,"Columbia County Public Transportation, Countywide including Dayton and Starbuck"
 Columbia Gorge Housing Authority,NA,Housing Authority,active,Skamania,Skamania,NA,NA,"The Columbia Gorge Housing Authority was formed by Skamania County, Klickitat County and the City of Goldendale as a joint housing authority under RCW 35.82.300"
@@ -253,7 +253,7 @@ Conway School District No. 317,317,School,active,Skagit,Skagit,NA,NA,NA
 Corral Springs Water District (1975),NA,Water,active,Douglas,Douglas,NA,NA,Formed to provide domestic water to about 75 customers on 625 acres in the Beebe Orchard Tracts subdivision
 Cosmopolis School District No. 99,99,School,active,Grays Harbor,Grays Harbor,"Part Aberdeen, Cosmopolis",NA,NA
 Coulee-Hartline School District No. 151,151,School,active,Grant,Grant,"Coulee City, Hartline",NA,NA
-Coulee Area (Grand Coulee Dam) Joint Parks and Recreation District,NA,Parks,active,Grant,"Grant, Lincoln, Douglas and Okanogan Counties","Cities of Eclectic City and Grand Coulee , and Towns of Coulee Dam, Coulee City part of the district",NA,NA
+Coulee Area (Grand Coulee Dam) Joint Parks and Recreation District,NA,Parks,active,Grant,"Grant, Lincoln, Douglas, Okanogan","Cities of Eclectic City and Grand Coulee , and Towns of Coulee Dam, Coulee City part of the district",NA,NA
 County View Water/Sewer District,NA,Water,active,Benton,Benton,NA,NA,Formerly Poplar Heights Sewer District
 Coupeville School District No. 204,204,School,active,Island,Island,Coupeville,NA,NA
 Covington Water District ,NA,Water,active,King,King,NA,King County Water District 105 (1960),"Service area includes Black Diamond, Covington, Kent, Maple Valley"
@@ -418,7 +418,7 @@ Glacier Water District,NA,Water,active,Whatcom,Whatcom,NA,NA,NA
 Glenwood School District No. 401,401,School,active,Klickitat,Klickitat,NA,NA,NA
 Goldendale School District No. 404,404,School,active,Klickitat,Klickitat,Goldendale,NA,NA
 Grand Coulee Dam Area Joint Park and Recreation District,NA,Parks,active,Lincoln,"Lincoln, Grant, Douglas, Okanogan","Cities of Electric City and Grand Coulee , and Towns of Coulee Dam, Coulee City part of the district",NA,NA
-Grand Coulee Dam Area Joint Park and Recreation District (2003),NA,Parks,active,Douglas,"Douglas, Lincoln, Grant and Okanogan Counties","Cities of Electric City and Grand Coulee , and Towns of Coulee Dam, Coulee City part of the district",NA,NA
+Grand Coulee Dam Area Joint Park and Recreation District (2003),NA,Parks,active,Douglas,"Douglas, Lincoln, Grant, Okanogan","Cities of Electric City and Grand Coulee , and Towns of Coulee Dam, Coulee City part of the district",NA,NA
 Grand Coulee Dam School District No. 301,301,School,active,Grant,Grant,"Coulee Dam, Grand Coulee Dam Electric City",NA,NA
 Grand Coulee Project Hydroelectric Authority (Legal Authority),NA,NA,active,Grant,Grant,NA,NA,"East, South and Quincy-Columbia Basin Irrigation Districts"
 Grand Mound/Rochester Park and Recreation District No. 2 -Disposition unknown,2,Parks,active,Thurston,Thurston,NA,NA,NA
@@ -486,7 +486,7 @@ Grays Harbor County Fire District No. 6,6,Fire Protection,active,Grays Harbor,Gr
 Grays Harbor County Fire Protection District No. 1,1,Fire Protection,active,Grays Harbor,Grays Harbor,Oakville,NA,NA
 Grays Harbor County Fire Protection District No. 10,10,Fire Protection,active,Grays Harbor,Grays Harbor,NA,Wishkah Fire Department,NA
 Grays Harbor County Fire Protection District No. 11,11,Fire Protection,active,Grays Harbor,Grays Harbor,NA,Grayland,NA
-Grays Harbor County Fire Protection District No. 12,12,Fire Protection,active,Grays Harbor,"Grays Harbor,",NA,NA,Service provided by McCleary
+Grays Harbor County Fire Protection District No. 12,12,Fire Protection,active,Grays Harbor,Grays Harbor,NA,NA,Service provided by McCleary
 Grays Harbor County Fire Protection District No. 15,15,Fire Protection,active,Grays Harbor,Grays Harbor,NA,Artic,NA
 Grays Harbor County Fire Protection District No. 16,16,Fire Protection,active,Grays Harbor,Grays Harbor,NA,Copalis Crossing,NA
 Grays Harbor County Fire Protection District No. 17,17,Fire Protection,active,Grays Harbor,Grays Harbor,NA,Humptulips/Axford,NA
@@ -611,7 +611,7 @@ Jefferson County Water District No. 1,1,Water,active,Jefferson,Jefferson,NA,Para
 Jefferson County Water District No. 2,2,Water,active,Jefferson,Jefferson,NA,Brinnon,NA
 Jefferson County Water District No. 3,3,Water,active,Jefferson,Jefferson,NA,Coyle,NA
 Joint City of Republic-Ferry County Housing Authority,NA,Housing Authority,active,Ferry,Ferry,Republic,NA,NA
-Joint Grant County Public Hospital District No. 6,6,Hospital,active,Douglas,"Douglas, Grant, Lincoln, and Okanogan","Coulee Dam, Electric City, Grand Coulee, Hartline
+Joint Grant County Public Hospital District No. 6,6,Hospital,active,Douglas,"Douglas, Grant, Lincoln,, Okanogan","Coulee Dam, Electric City, Grand Coulee, Hartline
 Coulee Dam, Hartline
  Elmer City, Nespelem",Coulee Medical Center,NA
 Juniper Beach Water District (1990),NA,Water,active,Island,Island,NA,NA,Located in a small community on Camano Island at the north end of Port Susan
@@ -977,7 +977,7 @@ North Bend Transportation Benefit District (2011),NA,Transportation,active,King,
 North Central Regional Library,NA,Library,active,Douglas,"Douglas, Chelan, Ferry, Grant,  Okanogan",NA,NA,NA
 North Central Regional Library (Intercounty Rural Library District),NA,Library,active,Chelan,Chelan,"Cashmere, Chelan, Entiat, Leavenworth, Wenatchee, Bridgeport, East Wenatchee, Waterville, Coulee Dam, Republic, 
 Electric City,  George, Grand Coulee, Mattawa, Quincy, Royal City, Soap Lake",NA,NA
-"North Central Regional Library (Intercounty Rural Library District) Chelan, Douglas, Okanogan, Grant and Ferry counties",NA,Library,active,Okanogan,"Chelan, Douglas, Okanogan, Grant and Ferry","Brewster, Coulee Dam, Elmer City, Pateros, Winthrop, Twisp, Tonasket, Okanogan, Oroville, Riverside",NA,NA
+"North Central Regional Library (Intercounty Rural Library District) Chelan, Douglas, Okanogan, Grant and Ferry counties",NA,Library,active,Okanogan,"Chelan, Douglas, Okanogan, Grant, Ferry","Brewster, Coulee Dam, Elmer City, Pateros, Winthrop, Twisp, Tonasket, Okanogan, Oroville, Riverside",NA,NA
 North Country Emergency Medical Services District,1,Emergency Medical Services,active,Clark,Clark,NA,Clark County Emergency Medical Service District No. 1 (Joint with Cowlitz County),NA
 North County Regional Fire Authority (Formerly Fire District  14 and 180,NA,Fire Protection,active,Snohomish,Snohomish,NA,NA,NA
 North Dalles Irrigation District,NA,Irrigation,active,Klickitat,Klickitat,NA,NA,NA
@@ -1238,7 +1238,7 @@ Port of Whitman County,NA,Port,active,Whitman,Whitman,"Albion, Colfax, Colton, E
 Port of Willapa Harbor,NA,Port,active,Pacific,Pacific,"Raymond, South Bend",NA,Northern half of Pacific County
 Port of Woodland,NA,Port,active,Cowlitz,Cowlitz,Woodland,NA,NA
 Port Townsend School District No. 50,50,School,active,Jefferson,Jefferson,Port Townsend,NA,NA
-Prescott Joint Park and Recreation,NA,Parks,active,"Columbia, Walla Walla","Columbia, Walla Walla",NA,NA,Maintains a pool and a park
+Prescott Joint Park and Recreation,NA,Parks,active,Columbia,"Columbia, Walla Walla",NA,NA,Maintains a pool and a park
 Prescott Joint Park and Recreation District,NA,Parks,active,Walla Walla,"Walla Walla, Columbia",Prescott,NA,NA
 Prescott School District No. 402-37,402,School,active,Walla Walla,Walla Walla,Prescott,NA,NA
 Prosser Fire Protection District No 3 ,3,Fire Protection,active,Benton,Benton,NA,Benton County Fire Protection District No. 3,NA
@@ -1537,7 +1537,7 @@ Sprague School District No. 8-163,8,School,active,Lincoln,Lincoln,Sprague,NA,NA
 Stanwood-Camano School District No. 401,401,School,active,Snohomish,Snohomish,Stanwood,NA,NA
 Stanwood Transportation Benefit District (2012),NA,Transportation,active,Snohomish,Snohomish,Stanwood,NA,NA
 Star School District No. 54,54,School,active,Franklin,Franklin,NA,NA,NA
-Starbuck School District No. 35,35,School,active,"Columbia, Walla Walla",Columbia,Starbuck,NA,NA
+Starbuck School District No. 35,35,School,active,Columbia,Columbia,Starbuck,NA,NA
 Startup Water District ,NA,Water,active,Snohomish,Snohomish,NA,NA,Provides water & sewer
 Stehekin School District No. 69,69,School,active,Chelan,Chelan,NA,NA,NA
 Steilacoom Historical School District No. 1,1,School,active,Pierce,Pierce,"Du Pont, part Lakewood, Steilacoom, part University Place",NA,NA
@@ -1620,7 +1620,7 @@ Toppenish School District No. 202,202,School,active,Yakima,Yakima,"Toppenish, pa
 Toppenish Transportation Benefit District (2012),NA,Transportation,active,Yakima,Yakima,Toppenish,NA,NA
 Touchet-Lowden Mosquito District,NA,Mosquito Control,active,Walla Walla,Walla Walla,NA,NA,NA
 Touchet School District No. 300,300,School,active,Walla Walla,Walla Walla,NA,NA,NA
-Touchet Valley Irrigation District No. 16,16,Irrigation,active,"Columbia, Walla","Columbia, Walla",NA,NA,In parts of Columbia and Walla Walla Counties
+Touchet Valley Irrigation District No. 16,16,Irrigation,active,Columbia,"Columbia, Walla",NA,NA,In parts of Columbia and Walla Walla Counties
 Touchet Water District No. 2,2,Water,active,Walla Walla,Walla Walla,NA,NA,NA
 Toutle Lake School District No. 130,130,School,active,Cowlitz,Cowlitz,NA,NA,NA
 Tracyton Water District No. 17,17,Water,dissolved,Kitsap,Kitsap,NA,NA,"Kitsap County Superior Court Order dissolving district dated March 27, 2006 effective June 13, 2006"
@@ -1704,7 +1704,7 @@ Wenatchee Heights Reclamation District,NA,NA,active,Chelan,Chelan,NA,NA,NA
 Wenatchee Reclamation District,NA,NA,active,Chelan,Chelan,NA,NA,NA
 Wenatchee School District No. 246,246,School,active,Chelan,Chelan,Wenatchee,NA,NA
 "Wenatchee Transportation Benefit District (Link Transit, 2011)",NA,Transportation,active,Chelan,Chelan,Wenatchee,NA,NA
-West End Irrigation District,NA,Irrigation,active,"Columbia, Walla Walla",Columbia,NA,NA,Also know as West End Irrigation Ditch
+West End Irrigation District,NA,Irrigation,active,Columbia,Columbia,NA,NA,Also know as West End Irrigation Ditch
 West Hill Water District No. 20,20,Water,disposition unknown,Kitsap,Kitsap,NA,NA,Service area includes Bainbridge
 West Pierce Fire and Rescue (formerly Pierce County Fire Protection District No. 3),3,Fire Protection,active,Pierce,Pierce,University Place,NA,NA
 West Sound Utility District No. 1 (2007),1,Public Utility,active,Kitsap,Kitsap,NA,NA,Formed by the consolidation of Annapolis Water District and Karcher Creek Sewer District in November 2007. Service area includes Port Orchard
@@ -1800,7 +1800,7 @@ Whitman County Park and Recreation District No. 1,1,Parks,active,Whitman,Whitman
 Whitman County Park and Recreation District No. 2,2,Parks,active,Whitman,Whitman,Garfield,NA,NA
 Whitman County Park and Recreation District No. 3,3,Parks,active,Whitman,Whitman,St. John,NA,NA
 Whitman County Park and Recreation District No. 4,4,Parks,active,Whitman,Whitman,Oakesdale,NA,NA
-Whitman County Park and Recreation District No. 5,5,Parks,active,"Whitman, Spokane","Whitman, Spokane",Rosalia,NA,NA
+Whitman County Park and Recreation District No. 5,5,Parks,active,Whitman,"Whitman, Spokane",Rosalia,NA,NA
 Whitman County Park and Recreation District No. 6,6,Parks,active,Whitman,Whitman,Tekoa,NA,NA
 Whitman County Parks and Recreation District No. 7,7,Parks,active,Whitman,Whitman,Endicott,NA,NA
 Whitman County Public Hospital District No. 1A,1,Hospital,active,Whitman,Whitman,Pullman,NA,NA

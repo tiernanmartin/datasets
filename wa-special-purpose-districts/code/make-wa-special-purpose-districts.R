@@ -21,10 +21,12 @@ spd_untidy <- read_excel(here::here("wa-special-purpose-districts/data/spdcounty
 
 # TIDY DATA ---------------------------------------------------------------
 
-spd_county <- spd_untidy %>% 
+spd_county <- spd_untidy %>%
   transmute(COUNTY = case_when(str_detect(COUNTIES, "County") ~ str_extract(COUNTIES,".+(?=\\sCounty)"),
                                TRUE ~ NA_character_),
-            COUNTIES_INCLUDED = str_replace_all(COUNTIES," County",""),
+            COUNTY = case_when(str_detect(COUNTY,",") ~ str_extract(COUNTY,".+(?=,)"),
+                               TRUE ~ COUNTY),
+            COUNTIES_INCLUDED = str_replace_all(COUNTIES," County| Counties","") %>% str_replace_all(" and ",", ") %>% str_replace_all(",$",""),
             DISTRICT_NAME = NAME,
             DISTRICT_NUMBER = str_extract(NAME,"(?<=No.\\s|No\\s)\\d+"),
             PLACES,

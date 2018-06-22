@@ -24,9 +24,9 @@ According to the [Municipal Research and Services Center (MRSC)](http://mrsc.org
 | District Note     | A general note                                                 | <http://mrsc.org/> | The original data includes this information in the District Name |
 | Change Note       | A summary of the changes or a general note                     | <http://mrsc.org/> | Data in this column is not consistently structured or formatted  |
 
-### Number of Special Purpose District, by County
+### Number of Special Purpose Districts, by County
 
-![](https://github.com/tiernanmartin/datasets/raw/master/wa-special-purpose-districts/resources/wa-spd2.png) Image Source: [Municipal Research and Services Center (MRSC)](http://mrsc.org/Home.aspx)
+![](https://github.com/tiernanmartin/datasets/raw/master/wa-special-purpose-districts/resources/spd-county-map.svg) Image Source: [Municipal Research and Services Center (MRSC)](http://mrsc.org/Home.aspx)
 
 Download
 --------
