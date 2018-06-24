@@ -18,12 +18,16 @@ options(knitr.kable.NA = '')
 
 A list of the agencies, deparments, and other governmental entities in Washington State and their respective acronyms/abbreviations.
 
+### Data Dictionary
+
 
 ```{r, results='asis', echo=FALSE,message=FALSE}
 here::here("wa-bureaucracy/data/wa-bureaucracy-data-dictionary.csv") %>% 
   read_csv(na = "NA") %>% 
   kable()
 ```
+
+![](https://github.com/tiernanmartin/datasets/raw/master/wa-bureaucracy/resources/wa-org-chart.png)
 
 ## Download
 

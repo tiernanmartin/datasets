@@ -6,12 +6,16 @@ Washington State Bureaucracy
 
 A list of the agencies, deparments, and other governmental entities in Washington State and their respective acronyms/abbreviations.
 
+### Data Dictionary
+
 | VARIABLE     | DESCRIPTION                    | NOTE                                                                                                        |
 |:-------------|:-------------------------------|:------------------------------------------------------------------------------------------------------------|
 | Agency Name  | The name of the agency         | Restructured from the original to fit the following pattern: `Type of Agency` `Focus of Agency` `(Acronym)` |
 | Focus        | The focus of the agency's work | For instance: agriculture, ecology, the lottery, etc.                                                       |
 | Type         | The type of the agency         | For instance: department, board, office, commission, committee, etc.                                        |
 | Abbreviation | The agency's official acronym  |                                                                                                             |
+
+![](https://github.com/tiernanmartin/datasets/raw/master/wa-bureaucracy/resources/wa-org-chart.png)
 
 Download
 --------
