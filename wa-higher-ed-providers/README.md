@@ -25,6 +25,8 @@ A list of higher-education providers in Washington State.
 | Lat                 | The latitude of the institution's geographic location   | Google Maps API                          |                                                              |
 | geom                | The geometry of the libraries location                  | Google Maps API                          |                                                              |
 
+![](https://github.com/tiernanmartin/datasets/raw/master/wa-higher-ed-providers/resources/wa-higher-ed-map-lowres.png)
+
 Download
 --------
 

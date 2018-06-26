@@ -28,6 +28,8 @@ here::here("wa-higher-ed-providers/data/wa-higher-ed-providers-dictionary.csv") 
   kable()
 ```
 
+![](https://github.com/tiernanmartin/datasets/raw/master/wa-higher-ed-providers/resources/wa-higher-ed-map-lowres.png)
+
 
 ## Download
 
