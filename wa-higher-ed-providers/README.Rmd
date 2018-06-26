@@ -31,7 +31,7 @@ here::here("wa-higher-ed-providers/data/wa-higher-ed-providers-dictionary.csv") 
 
 ## Download
 
-To download the data, right-click the following link and choose 'Save link as...': [`wa-higher-ed-providers.csv`](https://github.com/tiernanmartin/datasets/raw/master/wa-higher-ed-providers/data/wa-higher-ed-providers.csv).
+To download the data, right-click the following link and choose 'Save link as...': [`wa-higher-ed-providers.gpkg`](https://github.com/tiernanmartin/datasets/raw/master/wa-higher-ed-providers/data/wa-higher-ed-providers.gpkg).
 
 ## License <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
 
