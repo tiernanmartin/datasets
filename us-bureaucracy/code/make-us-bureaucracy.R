@@ -60,7 +60,9 @@ us_dept_abbr <- tibble(DEPT = c(dept_names,ind_agency_names),
   mutate(ABBR = case_when(
     str_detect(DEPT, "Treasury") ~ "USDT",
     TRUE ~ ABBR
-  )) 
+  )) %>% 
+  rename(DEPARTMENT = DEPT,
+         ABBREVIATION = ABBR)
  
 # WRITE DATA ----
 
