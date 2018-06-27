@@ -9,7 +9,7 @@ library(tidyverse)
   
 data_dictionary <- tibble::tribble(
         ~VARIABLE,                                               ~DESCRIPTION,                                                 ~SOURCE,                                                                                          ~NOTE,
-           "Department",  "The name of the department, agency, division or program",  "https://www.usa.gov/executive-departments",                                                                                             NA,
+           "Department",  "The name of the department, agency, division or program",  "https://www.usa.gov/executive-departments; https://www.usa.gov/independent-agencies",                                                                                             NA,
    "Abbreviation",                     "The official acronym or abbreviation",                 "https://www.usa.gov/executive-departments",  NA
   )
 

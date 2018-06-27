@@ -6,33 +6,55 @@ library(tidyverse)
 
 # GET HTML DATA ---- 
 
-usa_page_url <- "https://www.usa.gov/executive-departments"
+dept_page_url <- "https://www.usa.gov/executive-departments"
 
-abbreviation_page_html <- read_html(usa_page_url)
+ind_agency_page_url <- "https://www.usa.gov/independent-agencies"
 
-dept_names <- abbreviation_page_html %>%  
+dept_page_html <- read_html(dept_page_url)
+
+ind_agency_page_html <- read_html(ind_agency_page_url)
+
+dept_names <- dept_page_html %>%  
     html_nodes("span.field-content") %>% 
   html_nodes("a") %>% 
   html_text()
 
-dept_urls <- abbreviation_page_html %>%  
+ind_agency_names <- ind_agency_page_html %>%  
+    html_nodes("span.field-content") %>% 
+  html_nodes("a") %>% 
+  html_text()
+
+dept_urls <- dept_page_html %>%  
     html_nodes("span.field-content") %>% 
   html_nodes("a") %>% 
   html_attr("href") %>% 
   map_chr(~str_c("https://www.usa.gov",.x,sep = "")) 
 
+ind_agency_urls <- ind_agency_page_html %>%  
+    html_nodes("span.field-content") %>% 
+  html_nodes("a") %>% 
+  html_attr("href") %>% 
+  map_chr(~str_c("https://www.usa.gov",.x,sep = "")) 
+
+
 get_abbr <- function(x){
   
-  abbr <-  x %>% 
-  read_html() %>% 
+  table_text <- read_html(x) %>% 
   html_nodes("section.otln") %>% 
-  pluck(1) %>% 
-  html_node("p") %>% 
-  html_text()
+  html_text
+
+if(any(str_detect(table_text,"Acronym"))){
+  acronym <- table_text %>% 
+    purrr::keep(.p = ~ str_detect(.x, "Acronym")) %>% 
+    str_squish() %>% 
+    str_extract("(?<=Acronym:\\s).+")
+  return(acronym)
+}else{return(NA_character_)}
 }
 
-us_dept_abbr <- tibble(DEPT = dept_names,
-                       URL = dept_urls) %>% 
+us_dept_abbr <- tibble(DEPT = c(dept_names,ind_agency_names),
+                       URL = c(dept_urls,ind_agency_urls)
+                       ) %>% 
   transmute(DEPT,
             ABBR = map_chr(URL, get_abbr)) %>% 
   mutate(ABBR = case_when(

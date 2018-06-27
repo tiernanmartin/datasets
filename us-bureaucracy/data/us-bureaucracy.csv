@@ -1,4 +1,4 @@
-DEPARTMENT,ABBREVIATION
+DEPT,ABBR
 U.S. Department of Agriculture,USDA
 U.S. Department of Commerce,DOC
 U.S. Department of Defense,DOD
@@ -14,3 +14,70 @@ U.S. Department of the Interior,DOI
 U.S. Department of the Treasury,USDT
 U.S. Department of Transportation,DOT
 U.S. Department of Veterans Affairs,VA
+Administrative Conference of the United States,NA
+African Development Foundation,NA
+Broadcasting Board of Governors,NA
+Central Intelligence Agency,CIA
+Commission on Civil Rights,NA
+Commission on Presidential Scholars,NA
+Commission on Security and Cooperation in Europe (Helsinki Commission),NA
+Consumer Financial Protection Bureau,NA
+Consumer Product Safety Commission,CPSC
+Corporation for National and Community Service,NA
+Defense Nuclear Facilities Safety Board,NA
+Denali Commission,NA
+Environmental Protection Agency,EPA
+Equal Employment Opportunity Commission,EEOC
+Export-Import Bank of the United States,NA
+Farm Credit Administration,NA
+Federal Communications Commission,FCC
+Federal Deposit Insurance Corporation,FDIC
+Federal Election Commission,NA
+Federal Housing Finance Agency,NA
+Federal Labor Relations Authority,FLRA
+Federal Maritime Commission,NA
+Federal Mediation and Conciliation Service,NA
+Federal Mine Safety and Health Review Commission,NA
+Federal Reserve System,NA
+Federal Retirement Thrift Investment Board,NA
+Federal Trade Commission,FTC
+General Services Administration,GSA
+Institute of Museum and Library Services,NA
+Inter-American Foundation,NA
+Merit Systems Protection Board,NA
+Millennium Challenge Corporation,NA
+National Aeronautics and Space Administration,NASA
+National Archives and Records Administration,NARA
+National Capital Planning Commission,NA
+National Credit Union Administration,NCUA
+National Endowment for the Arts,NEA
+National Endowment for the Humanities,NA
+National Labor Relations Board,NLRB
+National Mediation Board,NA
+National Railroad Passenger Corporation,AMTRAK
+National Science Foundation,NSF
+National Transportation Safety Board,NTSB
+Occupational Safety and Health Review Commission,NA
+Office of Government Ethics,OGE
+Office of Personnel Management,OPM
+Office of Special Counsel,NA
+Office of the Director of National Intelligence,NA
+Overseas Private Investment Corporation,NA
+Peace Corps,NA
+Pension Benefit Guaranty Corporation,PBGC
+Postal Regulatory Commission,NA
+Privacy and Civil Liberties Oversight Board,PCLOB
+Railroad Retirement Board,RRB
+Securities and Exchange Commission,SEC
+Selective Service System,SSS
+Small Business Administration,SBA
+Social Security Administration,SSA
+Surface Transportation Board,NA
+Tennessee Valley Authority,TVA
+U.S. Agency for International Development,USAID
+U.S. Commodity Futures Trading Commission,CFTC
+U.S. International Trade Commission,NA
+U.S. Nuclear Regulatory Commission,NRC
+U.S. Postal Service,USPS
+U.S. Trade and Development Agency,NA
+Vietnam Education Foundation,NA
