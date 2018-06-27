@@ -1,0 +1,92 @@
+NAME,HOSPITAL_TYPE,OWNERSHIP_TYPE,ADDRESS,CITY,COUNTY,STATE,ZIP_CODE,LNG,LAT
+Multicare Deaconess Hospital,Acute Care Hospitals,Voluntary non-profit - Private,800 W 5th Ave,Spokane,Spokane,WA,99204,-117.4233359,47.651936
+Overlake Hospital Medical Center,Acute Care Hospitals,Voluntary non-profit - Other,1035 116th Ave NE,Bellevue,King,WA,98004,-122.1868467,47.6208345
+Tacoma General Allenmore Hospital,Acute Care Hospitals,Voluntary non-profit - Private,315 M.L.K. Jr Way,Tacoma,Pierce,WA,98405,-122.4529681,47.2593601
+Lincoln Hospital,Critical Access Hospitals,Government - Hospital District or Authority,10 Nichols St,Davenport,Lincoln,WA,99122,-118.1454984,47.6579165
+Mary Bridge Children's Hospital,Childrens,Voluntary non-profit - Other,317 M.L.K. Jr Way,Tacoma,Pierce,WA,98405,-122.4526369,47.2583589
+Lake Chelan Community Hospital,Critical Access Hospitals,Government - Hospital District or Authority,503 E Highland Ave,Chelan,Chelan,WA,98816,-120.0099265,47.8449189
+Lourdes Medical Center,Critical Access Hospitals,Voluntary non-profit - Church,520 N 4th Ave,Pasco,Franklin,WA,99301,-119.0954746,46.2349271
+Columbia Basin Hospital,Critical Access Hospitals,Government - Hospital District or Authority,200 Nat Washington Way,Ephrata,Grant,WA,98823,-119.5464905,47.3142973
+Capital Medical Center,Acute Care Hospitals,Voluntary non-profit - Private,3900 Capital Mall Dr SW,Olympia,Thurston,WA,98502,-122.9517829,47.0429139
+Evergreenhealth Medical Center,Acute Care Hospitals,Government - Hospital District or Authority,12040 NE 128th St,Kirkland,King,WA,98034,-122.1788405,47.7154327
+Othello Community Hospital,Critical Access Hospitals,Government - Hospital District or Authority,315 N 14th Ave,Othello,Adams,WA,99344,-119.1551479,46.8297573
+Sunnyside Community Hospital,Critical Access Hospitals,Voluntary non-profit - Private,1016 Tacoma Ave,Sunnyside,Yakima,WA,98944,-120.006972,46.3224618
+Kadlec Regional Medical Center,Acute Care Hospitals,Voluntary non-profit - Private,888 Swift Blvd,Richland,Benton,WA,99352,-119.2826107,46.2810929
+Kennewick General Hospital,Acute Care Hospitals,Government - Hospital District or Authority,900 S Auburn St,Kennewick,Benton,WA,99336,-119.119327,46.199093
+Dayton General Hospital,Critical Access Hospitals,Government - Hospital District or Authority,1012 S 3rd St,Dayton,Columbia,WA,99328,-117.9701599,46.311967
+Summit Pacific Medical Center-Swing Bed Unit,Critical Access Hospitals,Government - Hospital District or Authority,600 E Main St,Elma,Grays Harbor,WA,98541,-123.3919449,47.006903
+Providence St Mary Medical Center,Acute Care Hospitals,Voluntary non-profit - Private,401 W Poplar St,Walla Walla,Walla Walla,WA,99362,-118.3431332,46.0619651
+Whidbeyhealth Medical Center,Critical Access Hospitals,Government - Hospital District or Authority,101 N Main St,Coupeville,Island,WA,98239,-122.6843475,48.2138139
+St Clare Hospital,Acute Care Hospitals,Voluntary non-profit - Church,11315 Bridgeport Way SW,Lakewood,Pierce,WA,98499,-122.5025425,47.1549409
+Confluence Health- Wenatchee Valley Hosp & Clinics,Acute Care Hospitals,Voluntary non-profit - Private,820 N Chelan Ave,Wenatchee,Chelan,WA,98801,-120.3231961,47.4336603
+Evergreen Health Monroe,Acute Care Hospitals,Government - Hospital District or Authority,14701 179th Ave SE,Monroe,Snohomish,WA,98272,-121.9896179,47.8640585
+Toppenish Community Hospital,Acute Care Hospitals,Proprietary,502 W 4th Ave,Toppenish,Yakima,WA,98948,-120.3159184,46.3713507
+Yakima Valley Memorial Hospital,Acute Care Hospitals,Voluntary non-profit - Private,2811 Tieton Dr,Yakima,Yakima,WA,98902,-120.5476355,46.5937545
+Harrison Memorial Hospital,Acute Care Hospitals,Voluntary non-profit - Private,2520 Cherry Ave,Bremerton,Kitsap,WA,98310,-122.625149,47.58314
+Ferry County Memorial Hospital,Critical Access Hospitals,Government - Hospital District or Authority,36 N Klondike Rd,Republic,Ferry,WA,99166,-118.731416,48.653054
+Mid Valley Hospital,Critical Access Hospitals,Government - Hospital District or Authority,810 Jasmine St,Omak,Okanogan,WA,98841,-119.5462401,48.396993
+Seattle Children's Hospital,Childrens,Voluntary non-profit - Private,4800 Sand Point Way NE,Seattle,King,WA,98105,-122.2805384,47.6622259
+Shriners Hospital For Children,Childrens,Voluntary non-profit - Private,911 W 5th Ave,Spokane,Spokane,WA,99204,-117.425821,47.650935
+St Joseph Medical Center,Acute Care Hospitals,Voluntary non-profit - Church,1717 S J St,Tacoma,Pierce,WA,98405,-122.4483725,47.2458759
+Ocean Beach Hospital,Critical Access Hospitals,Government - Hospital District or Authority,174 1st Ave N,Ilwaco,Pacific,WA,98624,-124.0425711,46.3116775
+Providence St Peter Hospital,Acute Care Hospitals,Voluntary non-profit - Private,413 Lilly Rd NE,Olympia,Thurston,WA,98506,-122.8467837,47.0524811
+Providence Centralia Hospital,Acute Care Hospitals,Voluntary non-profit - Other,914 S Scheuber Rd,Centralia,Lewis,WA,98531,-122.9860309,46.7118986
+Swedish Medical Center,Acute Care Hospitals,Voluntary non-profit - Private,747 Broadway,Seattle,King,WA,98122,-122.3220427,47.6088943
+Swedish Edmonds Hospital,Acute Care Hospitals,Voluntary non-profit - Private,21601 76th Ave W,Edmonds,Snohomish,WA,98026,-122.334539,47.8033101
+Island Hospital,Acute Care Hospitals,Government - Hospital District or Authority,1211 24th St,Anacortes,Skagit,WA,98221,-122.6150144,48.5020509
+Quincy Valley Hospital,Critical Access Hospitals,Government - Hospital District or Authority,908 10th Ave SW,Quincy,Grant,WA,98848,-119.8682047,47.2311782
+Providence Holy Family Hospital,Acute Care Hospitals,Voluntary non-profit - Church,5633 N Lidgerwood St,Spokane,Spokane,WA,99208,-117.4071302,47.7098478
+Tri-State Memorial Hospital,Critical Access Hospitals,Voluntary non-profit - Private,1254 Highland Ave,Clarkston,Asotin,WA,99403,-117.05661,46.4036522
+East Adams Rural Hospital,Critical Access Hospitals,Government - Hospital District or Authority,903 S Adams St,Ritzville,Adams,WA,99169,-118.3721239,47.1210283
+Providence Regional Medical Center Everett,Acute Care Hospitals,Voluntary non-profit - Church,916 Pacific Ave,Everett,Snohomish,WA,98201,-122.2170798,47.9756524
+Peachealth St John Medical Center,Acute Care Hospitals,Voluntary non-profit - Church,1615 Delaware St,Longview,Cowlitz,WA,98632,-122.9412013,46.1301827
+Yakima Regional Medical And Cardiac Center,Acute Care Hospitals,Proprietary,110 S 9th Ave,Yakima,Yakima,WA,98902,-120.5213088,46.5966275
+Highline Medical Center,Acute Care Hospitals,Voluntary non-profit - Private,16251 Sylvester Rd SW,Burien,King,WA,98166,-122.343248,47.457487
+Providence Mount Carmel Hospital,Critical Access Hospitals,Voluntary non-profit - Church,982 E Columbia Ave,Colville,Stevens,WA,99114,-117.893144,48.540797
+Olympic Medical Center,Acute Care Hospitals,Government - Local,939 Caroline St,Port Angeles,Clallam,WA,98362,-123.4147562,48.1154173
+Samaritan Hospital,Acute Care Hospitals,Government - Hospital District or Authority,801 E Wheeler Rd,Moses Lake,Grant,WA,98837,-119.2652935,47.1282588
+Central Washington Hospital,Acute Care Hospitals,Voluntary non-profit - Private,1201 S Miller St,Wenatchee,Chelan,WA,98801,-120.320806,47.4065623
+Multicare Valley Hospital,Acute Care Hospitals,Proprietary,12606 E Mission Ave,Spokane Valley,Spokane,WA,99216,-117.235524,47.670756
+Jefferson Healthcare,Critical Access Hospitals,Government - Hospital District or Authority,834 Sheridan St,Port Townsend,Jefferson,WA,98368,-122.7893461,48.1058418
+Swedish Medical Center / Cherry Hill,Acute Care Hospitals,Voluntary non-profit - Church,500 17th Ave Suite 100,Seattle,King,WA,98122,-122.3107016,47.606482
+St Joseph Medical Center,Acute Care Hospitals,Voluntary non-profit - Other,2901 Squalicum Pkwy,Bellingham,Whatcom,WA,98225,-122.4733425,48.7732176
+Harborview Medical Center,Acute Care Hospitals,Government - Local,325 9th Ave,Seattle,King,WA,98104,-122.3235411,47.6043796
+Walla Walla General Hospital,Acute Care Hospitals,Voluntary non-profit - Church,1025 S 2nd Ave,Walla Walla,Walla Walla,WA,99362,-118.3293879,46.0551307
+Klickitat Valley Hospital,Critical Access Hospitals,Government - Hospital District or Authority,310 S Roosevelt Ave,Goldendale,Klickitat,WA,98620,-120.8107845,45.8199933
+Snoqualmie Valley Hospital,Critical Access Hospitals,Government - Hospital District or Authority,9801 Frontier Ave SE,Snoqualmie,King,WA,98065,-121.8857165,47.5127466
+Morton General Hospital,Critical Access Hospitals,Government - Local,521 Adams Ave,Morton,Lewis,WA,98356,-122.2799987,46.5554332
+Cascade Valley Hospital,Acute Care Hospitals,Government - Hospital District or Authority,330 S Stillaguamish Ave,Arlington,Snohomish,WA,98223,-122.1183507,48.1887877
+Mason General Hospital & Family Of Clinics,Critical Access Hospitals,Government - Hospital District or Authority,901 Mountain View Dr,Shelton,Mason,WA,98584,-123.1139636,47.2257605
+Legacy Salmon Creek Medical Center,Acute Care Hospitals,Voluntary non-profit - Private,2211 NE 139th St,Vancouver,Clark,WA,98686,-122.6479792,45.7207142
+Valley Medical Center,Acute Care Hospitals,Government - Hospital District or Authority,400 S 43rd St,Renton,King,WA,98055,-122.2144781,47.4424121
+St Francis Community Hospital,Acute Care Hospitals,Voluntary non-profit - Church,34515 9th Ave S,Federal Way,King,WA,98003,-122.3265433,47.2926381
+Virginia Mason Medical Center,Acute Care Hospitals,Voluntary non-profit - Private,925 Seneca St,Seattle,King,WA,98101,-122.327633,47.6100079
+Prosser Memorial Hospital,Critical Access Hospitals,Government - Hospital District or Authority,723 Memorial St,Prosser,Benton,WA,99350,-119.7640466,46.2080997
+Swedish Issaquah,Acute Care Hospitals,Voluntary non-profit - Private,751 NE Blakely Dr,Issaquah,King,WA,98029,-122.0218919,47.5357009
+Northwest Hospital,Acute Care Hospitals,Voluntary non-profit - Other,1550 N 115th St,Seattle,King,WA,98133,-122.336878,47.7141785
+Multicare Auburn Medical Center,Acute Care Hospitals,Voluntary non-profit - Private,202 N Division St,Auburn,King,WA,98001,-122.2293794,47.30921
+Peacehealth Peace Island Medical Center,Critical Access Hospitals,Voluntary non-profit - Private,1117 Spring St,Friday Harbor,San Juan,WA,98250,-123.028881,48.5289333
+Providence St Joseph Hospital,Critical Access Hospitals,Voluntary non-profit - Church,500 E Webster Ave,Chewelah,Stevens,WA,99109,-117.7108346,48.2778015
+Three Rivers Hospital,Critical Access Hospitals,Government - Hospital District or Authority,507 Hospital Way,Brewster,Okanogan,WA,98812,-119.7828278,48.106301
+Group Health Central Hospital,Acute Care Hospitals,Voluntary non-profit - Other,201 16th Ave E,Seattle,King,WA,98112,-122.3124495,47.6195658
+Odessa Memorial Healthcare Center,Critical Access Hospitals,Government - Hospital District or Authority,502 Amende St,Odessa,Lincoln,WA,99159,-118.6822877,47.3314125
+St Anthony Hospital,Acute Care Hospitals,Voluntary non-profit - Church,11567 Canterwood Blvd NW,Gig Harbor,Pierce,WA,98332,-122.613414,47.363616
+Whitman Hospital And Medical Center,Critical Access Hospitals,Government - Hospital District or Authority,1200 W Fairview St,Colfax,Whitman,WA,99111,-117.3756605,46.8689006
+Garfield County Memorial Hospital,Critical Access Hospitals,Government - Hospital District or Authority,66 6th St,Pomeroy,Garfield,WA,99347,-117.6025966,46.475492
+St Elizabeth Hospital,Critical Access Hospitals,Voluntary non-profit - Private,1455 Battersby Ave,Enumclaw,King,WA,98022,-121.9877559,47.209166
+Skyline Hospital,Critical Access Hospitals,Government - Hospital District or Authority,211 NE Skyline Dr,White Salmon,Klickitat,WA,98672,-121.470793,45.722474
+University Of Washington Medical Ctr,Acute Care Hospitals,Government - State,1959 NE Pacific St,Seattle,King,WA,98195,-122.3066571,47.6493147
+North Valley Hospital,Critical Access Hospitals,Government - Local,203 S Western Ave,Tonasket,Okanogan,WA,98855,-119.4391826,48.7065956
+Pullman Regional Hospital,Critical Access Hospitals,Government - Hospital District or Authority,835 SE Bishop Blvd,Pullman,Whitman,WA,99163,-117.1694002,46.7126293
+Multicare Good Samaritan Hospital,Acute Care Hospitals,Voluntary non-profit - Private,401 15th Ave SE,Puyallup,Pierce,WA,98372,-122.2890123,47.1788401
+Willapa Harbor Hospital,Critical Access Hospitals,Government - Hospital District or Authority,800 Alder St,South Bend,Pacific,WA,98586,-123.8122058,46.6627665
+Newport Community Hospital,Critical Access Hospitals,Government - Hospital District or Authority,714 Pine St Bldg. C,Newport,Pend Oreille,WA,99156,-117.0502306,48.182652
+Grays Harbor Community Hospital,Acute Care Hospitals,Voluntary non-profit - Private,915 Anderson Dr,Aberdeen,Grays Harbor,WA,98520,-123.8471278,46.9792513
+Peacehealth Southwest Medical Center,Acute Care Hospitals,Voluntary non-profit - Private,400 NE Mother Joseph Pl,Vancouver,Clark,WA,98664,-122.5811134,45.6242077
+Skagit Valley Hospital,Acute Care Hospitals,Government - Hospital District or Authority,300 Hospital Parkway,Mt Vernon,Skagit,WA,98274,-122.3244085,48.4192785
+Coulee Medical Center,Critical Access Hospitals,Government - Hospital District or Authority,411 Fortuyn Rd,Grand Coulee,Grant,WA,99133,-119.00822,47.94223
+Cascade Medical Center,Critical Access Hospitals,Government - Hospital District or Authority,817 Commercial St,Leavenworth,Chelan,WA,98826,-120.660881,47.5943609
+Providence Sacred Heart Medical Center,Acute Care Hospitals,Voluntary non-profit - Church,101 W 8th Ave,Spokane,Spokane,WA,99204,-117.4130344,47.6488241
+Forks Community Hospital,Critical Access Hospitals,Government - Hospital District or Authority,530 Bogachiel Way,Forks,Clallam,WA,98331,-124.3928638,47.9460883
+Peacehealth United General Medical Center,Critical Access Hospitals,Government - Hospital District or Authority,2000 Hospital Dr,Sedro-Woolley,Skagit,WA,98284,-122.276253,48.495902
+Kittitas Valley Community Hospital,Critical Access Hospitals,Government - Hospital District or Authority,603 S Chestnut St,Ellensburg,Kittitas,WA,98926,-120.5378388,46.9871968

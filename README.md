@@ -13,6 +13,7 @@ Contents
 -   [`wa-housing-authorities`](https://github.com/tiernanmartin/datasets/tree/master/wa-housing-authorities) the names of the housing authorities in Washington State
 -   [`wa-special-purpose-districts`](https://github.com/tiernanmartin/datasets/tree/master/wa-special-purpose-districts) the names of the special purpose districts in Washington State
 -   [`wa-higher-ed-providers`](https://github.com/tiernanmartin/datasets/tree/master/wa-higher-ed-providers) the names of the higher-education providers in Washington State
+-   [`wa-hospitals`](https://github.com/tiernanmartin/datasets/tree/master/wa-hospitals) the names of the hospitals in Washington State
 
 Description
 -----------

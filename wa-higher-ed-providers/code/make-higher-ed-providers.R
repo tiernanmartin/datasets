@@ -37,7 +37,7 @@ options(tigris_class = "sf")
 geocode_fun <- function(address){
     geocode_url(address, 
                 auth="standard_api", 
-                privkey="AIzaSyAC19c3TtQwrSiQYKYDaf-9nDIqahirnD8",  # this can be replaced with a free private key from Google's API
+                privkey="",  # this can be replaced with a free private key from Google's API
                 clean=TRUE, 
                 add_date='today', 
                 verbose=TRUE) 
