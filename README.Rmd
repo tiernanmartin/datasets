@@ -21,6 +21,7 @@ knitr::opts_chunk$set(echo = TRUE)
   + [`wa-special-purpose-districts`](https://github.com/tiernanmartin/datasets/tree/master/wa-special-purpose-districts) the names of the special purpose districts in Washington State
   + [`wa-higher-ed-providers`](https://github.com/tiernanmartin/datasets/tree/master/wa-higher-ed-providers) the names of the higher-education providers in Washington State
   + [`wa-hospitals`](https://github.com/tiernanmartin/datasets/tree/master/wa-hospitals) the names of the hospitals in Washington State
+  + [`sound-transit-lightrail`](https://github.com/tiernanmartin/datasets/tree/master/sound-transit-lightrail) the (unofficial) stations of Sound Transit's Link Light Rail system
   
 ## Description
 
