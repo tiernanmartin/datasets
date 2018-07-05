@@ -60,7 +60,7 @@
 { "type": "Feature", "properties": { "PROJECT": "ST3 Candidate Projects", "NAME": "Mariner Park & Ride", "LOCATION_CERTAINTY": "low" }, "geometry": { "type": "Point", "coordinates": [ -122.2381997, 47.8798295 ] } },
 { "type": "Feature", "properties": { "PROJECT": "ST3 Candidate Projects", "NAME": "Midtown", "LOCATION_CERTAINTY": "low" }, "geometry": { "type": "Point", "coordinates": [ -122.3318195, 47.6065609 ] } },
 { "type": "Feature", "properties": { "PROJECT": "ST3 Candidate Projects", "NAME": "Denny", "LOCATION_CERTAINTY": "low" }, "geometry": { "type": "Point", "coordinates": [ -122.3384714, 47.6185311 ] } },
-{ "type": "Feature", "properties": { "PROJECT": "ST3 Candidate Projects", "NAME": "Seattle Center", "LOCATION_CERTAINTY": "low" }, "geometry": { "type": "Point", "coordinates": [ -122.3554659, 47.6202595 ] } },
+{ "type": "Feature", "properties": { "PROJECT": "ST3 Candidate Projects", "NAME": "Seattle Center", "LOCATION_CERTAINTY": "low" }, "geometry": { "type": "Point", "coordinates": [ -122.35641, 47.6227905 ] } },
 { "type": "Feature", "properties": { "PROJECT": "ST3 Candidate Projects", "NAME": "Smith Cove", "LOCATION_CERTAINTY": "low" }, "geometry": { "type": "Point", "coordinates": [ -122.37216, 47.629508 ] } },
 { "type": "Feature", "properties": { "PROJECT": "ST3 Candidate Projects", "NAME": "Interbay", "LOCATION_CERTAINTY": "low" }, "geometry": { "type": "Point", "coordinates": [ -122.3764944, 47.6484482 ] } },
 { "type": "Feature", "properties": { "PROJECT": "ST3 Candidate Projects", "NAME": "Ballard", "LOCATION_CERTAINTY": "low" }, "geometry": { "type": "Point", "coordinates": [ -122.3762369, 47.668682 ] } },
